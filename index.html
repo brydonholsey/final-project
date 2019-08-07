@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet" />
 
     <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/a61cb35b75.js"></script>
     <script src="dist/js/lightbox.min.js"></script>
@@ -39,36 +40,269 @@
     </header>
 
     <main>
-      <section>
+      <section class="home-gallery">
         <div class="container">
           <div class="row">
             <div class="column">
-              <a href="images/portfolio/bc-avocado.jpg" data-lightbox="print-design"><img class="home-gallery" src="images/portfolio/bc-avocado.jpg" alt="Business Card" /></a>
-              <img src="images/portfolio/tote-fkew.jpg">
-              <img src="images/portfolio/bc-brydon.jpg">
-              <img src="images/portfolio/tessera-workspace.jpg">
+
+              <div class="flip-card">
+              <img src="images/portfolio/bc-avocado.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/bc-avocado.jpg" data-lightbox="print-design">
+                      <h3>Logo</h3>
+                      <hr>
+                      <p>Florida Kids Eat Well logo creation and branding mocks.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/tote-fkew.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/tote-fkew.jpg" data-lightbox="print-design">
+                      <h3>Tote Bag</h3>
+                      <hr>
+                      <p>Florida Kids Eat Well logo creation and branding mocks.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/bc-brydon.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/bc-brydon.jpg" data-lightbox="print-design">
+                      <h3>Business Card</h3>
+                      <hr>
+                      <p>Business card mockup for my personal brand.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/tessera-workspace.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/tessera-workspace.jpg" data-lightbox="print-design">
+                      <h3>Site Mocks</h3>
+                      <hr>
+                      <p>Responsive web design mockups for a residential community.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
             </div>
+
             <div class="column">
-              <img src="images/portfolio/bottle-lizzieco.jpg">
-              <img src="images/portfolio/cap-avocado.jpg">
-              <img src="images/portfolio/grower-feature.jpg">
-              <img src="images/portfolio/invitation-gold.jpg">
-              <img src="images/portfolio/boma-invites.jpg">
+
+              <div class="flip-card">
+              <img src="images/portfolio/bottle-lizzieco.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/bottle-lizzieco.jpg" data-lightbox="print-design">
+                      <h3>Product Label</h3>
+                      <hr>
+                      <p>Product label mockups for hair product.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/cap-avocado.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/cap-avocado.jpg" data-lightbox="print-design">
+                      <h3>Hat Mockup</h3>
+                      <hr>
+                      <p>Logo and product mockup for Florida Kids Eat Well.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/grower-feature.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/grower-feature.jpg" data-lightbox="print-design">
+                      <h3>Product Flyer</h3>
+                      <hr>
+                      <p>Oyster grower feature card for The Maine Oyster Company.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/invitation-gold.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/invitation-gold.jpg" data-lightbox="print-design">
+                      <h3>Wedding Invitation</h3>
+                      <hr>
+                      <p>Gold letterpress wedding invitation.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/boma-invites.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/boma-invites.jpg" data-lightbox="print-design">
+                      <h3>BOMA Invitations</h3>
+                      <hr>
+                      <p>Invitation for a company partaking in the BOMA awards.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
+
             <div class="column">
-              <img src="images/portfolio/invitation-rachel.jpg">
-              <img src="images/portfolio/midtown-workspace.jpg">
-              <img src="images/portfolio/moc-iphone.jpg">
-              <img src="images/portfolio/moc-workspace.jpg">
-              <img src="images/portfolio/bc-fkew.jpg">
+
+              <div class="flip-card">
+              <img src="images/portfolio/invitation-rachel.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/invitation-rachel.jpg" data-lightbox="print-design">
+                      <h3>Wedding Invitation</h3>
+                      <hr>
+                      <p>Clean letterpress wedding invitation.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/midtown-workspace.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/midtown-workspace.jpg" data-lightbox="print-design">
+                      <h3>Web Design</h3>
+                      <hr>
+                      <p>Web design mockup for a local oyster restaurant.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/moc-iphone.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/moc-iphone.jpg" data-lightbox="print-design">
+                      <h3>Responsive Web Design</h3>
+                      <hr>
+                      <p>iPhone mockup of a responsive website for The Maine Oyster Company.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/moc-workspace.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/moc-workspace.jpg" data-lightbox="print-design">
+                      <h3>Responsive Web Design</h3>
+                      <hr>
+                      <p>Responsive website mockup for The Maine Oyster Company.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/bc-fkew.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/bc-fkew.jpg" data-lightbox="print-design">
+                      <h3>Business Card</h3>
+                      <hr>
+                      <p>Logo and branding mockups for Florida Kids Eat Well.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
+
             <div class="column">
-              <img src="images/portfolio/pampelmousse.jpg">
-              <img src="images/portfolio/smallpoint.jpg">
-              <img src="images/portfolio/tessera-iphone.jpg">
-              <img src="images/portfolio/tessera-workspace.jpg">
-              <img src="images/portfolio/invitation-peach.jpg">
+
+              <div class="flip-card">
+              <img src="images/portfolio/pampelmousse.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/pampelmousse.jpg" data-lightbox="print-design">
+                      <h3>Illustration</h3>
+                      <hr>
+                      <p>Vector illustration of seltzer can created in Adobe Illustrator.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/smallpoint.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/smallpoint.jpg" data-lightbox="print-design">
+                      <h3>Illustration</h3>
+                      <hr>
+                      <p>Vector illustration created in Adobe Illustrator of the coast of Maine.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/tessera-iphone.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/tessera-iphone.jpg" data-lightbox="print-design">
+                      <h3>Responsive Web Design</h3>
+                      <hr>
+                      <p>iPhone mockup of a responsive website for a residential community.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/tessera-workspace.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/tessera-workspace.jpg" data-lightbox="print-design">
+                      <h3>Site Mocks</h3>
+                      <hr>
+                      <p>Responsive web design mockups for a residential community.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flip-card">
+              <img src="images/portfolio/invitation-peach.jpg" alt="Business Card" />
+                <div class="overlay-effect">
+                  <div class="text">
+                    <a href="images/portfolio/invitation-peach.jpg" data-lightbox="print-design">
+                      <h3>Wedding Invitations</h3>
+                      <hr>
+                      <p>Gold foil and flat print watercolor wedding invitation suite.</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
 
         </div>
