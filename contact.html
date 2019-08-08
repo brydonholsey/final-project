@@ -52,7 +52,41 @@
         <div class="container">
           <div class="row">
             <div class="column-50">
+              <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
 
+                <div class="first-name input-section">
+                  <label for="firstname" class="label_input_wrap">First Name</label>
+                  <input class="form-field-50" type="text" name="firstname" id="firstname" placeholder="ex: Brydon"/>
+                </div>
+
+                <div class="last-name input-section">
+                  <label for="lastname" class="label_input_wrap">Last Name</label>
+                  <input class="form-field-50" type="text" name="lastname" id="lastname" placeholder="ex: Holsey"/>
+                </div>
+
+                <div class="email input-section">
+                  <label for="email" class="label_input_wrap">Email</label>
+                  <input class="form-field-50" type="email" name="email" id="email" placeholder="bholsey@example.com"/>
+                </div>
+
+                <div class="telephone input-section">
+                  <label for="telephone" class="label_input_wrap">Telephone</label>
+                  <input class="form-field-50" type="tel" name="telephone" id="telephone" placeholder="555-555-5555">
+                </div>
+
+                <div class="comments input-section">
+                  <label for="comments" class="label_input_wrap">Comments</label>
+                  <textarea class="form-field-100" name="comments" id="comments" cols="35" rows="5" placeholder="Your comment goes here"></textarea>
+                </div>
+
+
+
+                <div class="submit input-section">
+                  <input type="submit" value="Contact Us!" />
+                </div>
+
+
+              </form>
 
 
             </div>
@@ -91,14 +125,6 @@
         </div>
       </div>
     </footer>
-
-
-    <script>
-    (function() {
-        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-        Galleria.run('.galleria');
-    }());
-    </script>
 
 
   </body>
