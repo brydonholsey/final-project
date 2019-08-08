@@ -49,11 +49,20 @@ h1 {
   color: #21B8CB;
 }
 
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #21B8CB;
+}
+
 h3 {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: .2em;
+  color: #ffffff;
 }
 
 a i {
@@ -139,6 +148,14 @@ hr {
 .page-name {
   border-bottom: 1px solid #21B8CB;
   margin-bottom: 16px;
+}
+
+.page-title {
+  margin-bottom:40px;
+}
+
+.page-content {
+  margin-bottom:100px;
 }
 
 .column-33 {
@@ -235,6 +252,12 @@ hr {
   padding-bottom:0px;
 }
 
+/* ------------------ galleria --------------------- */
+.galleria {
+  max-width: 600px;
+  height: 450px;
+  background: #fff;
+}
 
 
 /* ------------------ responsive image grid css --------------------- */

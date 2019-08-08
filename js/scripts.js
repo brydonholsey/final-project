@@ -24,3 +24,12 @@ $(document).ready(function(){
   });
 });
 </script>
+
+
+// galleria
+<script>
+(function() {
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+}());
+</script>
