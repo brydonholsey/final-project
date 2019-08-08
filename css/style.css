@@ -160,6 +160,10 @@ hr {
   margin-bottom:40px;
 }
 
+#home-header {
+  text-align: center;
+}
+
 .page-content {
   margin-bottom:100px;
 }
