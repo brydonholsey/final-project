@@ -47,8 +47,9 @@ h1 {
   text-transform: uppercase;
   letter-spacing: .2em;
   color: #21B8CB;
-  -webkit-animation-name: fade-in-left;
-  animation-name: fade-in-left;
+  /* background: linear-gradient(160deg, rgba(33,184,203,1), rgba(209,226,148,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 h2 {
@@ -184,6 +185,7 @@ hr {
 
 .about-photo {
   height: 365px;
+  animation: fadeInLeft 3s ease-in-out;
 }
 
 .overlay-text {
@@ -194,13 +196,7 @@ hr {
   right:80px;
   width: 370px;
   padding: 20px 40px;
-  animation: fadeInLeft 3s ease-in-out;
-}
-
-@@keyframes fadeInLeft {
-    from {left: 0px;}
-    to {left: 300px;}
-
+  animation: fadeInFarLeft 3s ease-in-out;
 }
 
 /* @keyframes fade-in-left {
@@ -240,6 +236,7 @@ hr {
   position: relative;
   display: inline-block;
   vertical-align: text-top;
+  animation: fadeIn 2s;
 }
 
 .flip-card:hover .overlay-effect{
@@ -426,4 +423,50 @@ footer p {
 
 .footer-bold {
   font-weight: 700;
+}
+
+/* --------------------------- animations ------------------------------------ */
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+}
+
+@keyframes fadeInFarLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-200%, 0, 0);
+    transform: translate3d(-200%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+}
+
+@keyframes fadeIn {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
 }
